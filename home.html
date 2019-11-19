@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="homepage.css" type="text/css">
+
+</head>
+<body>
+
+     
+
+
+   
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#profile">Profile</a></li>
+  <li id="log"><a href="#Login">Login</a></li>
+  <li id="log"><a href="#cart">CART</a></li>
+
+  <li id="search"><input type="text" placeholder="Search"></li>
+</ul>
+
+<!-- <div id="menu">
+    <ul>
+      <li>Home</li>
+      <li>What's New</li>
+      <li>Contact Us</li>
+      <li>About Us</li>
+  
+    </ul>
+  </div> -->
+
+<!-- <div id="Body">
+  <div id="menu-icon">
+    <span class="material-icons w3-jumbo">MENU</span>  
+  </div>
+<br><ul>
+    <li><a href="#Clothes">Clothes</a></li>
+    <li><a href="#Watches">Watches</a></li>
+    <li><a href="#Shoes">Shoes</a></li>
+    <li><a href="#Mobile">Mobiles</a></li>
+    
+  </ul> -->
+
+  <br>
+
+<!--Images for slider-->
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="a.jpg" style="width:100%">
+  <img class="mySlides" src="b.jpg" style="width:100%">
+  <img class="mySlides" src="c.jpg" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<br>
+
+
+<div>
+  <a href="shoes.html"><img src="shoes1.jpg" style="width:24.5%"></a>
+  <a href="clothes.html"><img src="clothes1.png" style="width:24.5%"></a>
+  <a href="watch.html"><img src="watch2.jpg" style="width:24.5%"></a>
+  <a href="mobiles.html"><img src="mobile1.jpg" style="width:24.5%"></a>
+</div>
+
+<!-- <div id="brands">
+  BRANDS TO BRAG
+  <div>
+    <img src="arrow1.jpg">
+    <img src="m&h1.jpg">
+    <img src="manyavar1.jpg">
+    <img src="h&m1.jpg">
+  </div>
+</div>
+
+<div>
+    <img src="fastrack1.jpg">
+    <img src="titan1.jpg">
+    <img src="th1.jpg">
+    <img src="casio.jpg">
+  </div>
+</div>
+
+<div>
+    <img src="adidas1.jpg">
+    <img src="nike1.jpg">
+    <img src="reebok1.jpg">
+    <img src="skechers.jpg">
+  </div>
+</div>
+
+<div>
+    <img src="apple1.jpg">
+    <img src="samsung1.jpg">
+    <img src="redmi1.jpg">
+    <img src="oneplus1.jpg">
+  </div>
+</div> -->
+<br>
+<br>
+<br>
+
+
+<footer>FOOTER</footer>
+</body>
+</html>
+
