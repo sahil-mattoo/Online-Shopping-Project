@@ -1,0 +1,38 @@
+h2{
+    font-family: Calibri;     
+    font-style: normal; 
+    font-weight: bold; 
+    text-align: center;
+    text-decoration: underline
+  }
+  body{
+    background-color:white;
+  }
+
+
+  .border1{
+    width: 400px;
+    padding: 10px;
+    border: 2px solid black;;
+    margin: auto;
+  }
+  form
+  {
+      align:"center";
+  }
+  input[type=text] {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #000000;
+  }
+  input[type=password] {
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #000000;
+  }
+  td
+  {
+     font-size: 9px;
+    font-weight: bold;
+  }
+  
